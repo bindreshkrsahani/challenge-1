@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    /*************************Tag selector******************************/
+    body {
+      
+      font-family: 'Outfit', sans-serif;
+      background-color: hsl(217, 54%, 11%);
+      text-align: center;
+      font-size: 16px;
+    }
+
+    h2 {
+      letter-spacing: .75px;
+      font-weight: lighter;
+      font-size: 18px;
+      color: hsl(0, 0%, 100%);
+    }
+
+    hr {
+      border-style: none;
+      border-top-style: solid;
+      margin: 25px 0;
+      border-color: hsl(215, 32%, 27%);
+    }
+
+    p {
+      color: hsl(215, 51%, 70%);
+      line-height: 1.5;
+      letter-spacing: 1.2px;
+    }
+
+    /*************************Class Selector**************************/
+    
+    .overall {
+      border-radius: 25px;
+      background-color: hsl(216, 50%, 16%);
+      margin: 250px auto;
+      width: 302px;
+      padding: 25px;
+      filter: drop-shadow(0px 0px 15px black);
+    }
+
+    .equi-image {
+      width: 100%;
+    }
+    .heading-equi {
+      text-align: left;
+    }
+    
+    .description-1 {
+      position: absolute;
+    }
+
+    .description-2 {
+      position: relative;
+      left: 197px;
+      width: 36%
+    }
+
+  .clock {
+    float: left;
+    padding: 4px 3px 0 0;
+   }
+  .days {
+    display: inline-block;
+    margin: 0 0;
+  }
+
+  .eth {
+    padding-right: 3px;
+  }
+
+  .profile-pic {
+    width: 10%;
+    float: left;
+  }
+    
+  .attribution { font-size: 11px; text-align: center; 
+    padding: 25px 0;
+    }
+  
+  a { color: hsl(228, 45%, 44%); }
+
+  </style>
+</head>
+<body>
+  <div  class="overall">
+  <div>
+    <img class="equi-image" src="images/image-equilibrium.jpg" alt="image">
+  </div>
+    <div class="heading-equi">
+      <h2>Equilibrium #3429</h2>
+      <p>Our Equilibrium collection promotes balance and calm.</p>
+    </div> 
+    <div class="eth and time">
+      <div class="description-1">
+        <img class="eth" src="images/icon-ethereum.svg" alt="icon-ethereum">
+        <p class="" style="display: inline-block; margin: 0 auto 2px; position: relative; bottom: 3px; color: hsl(178, 100%, 50%); ">0.041 ETH</p>
+      </div>
+      <div class="description-2">
+        <img class="clock" src="images/icon-clock.svg" alt="clock">
+        <p class="days">3 days left</p>
+      </div>
+    </div>
+    <hr>
+    <div>
+      <img class="profile-pic" src="images/image-avatar.png" alt="image-avatar">
+      <p style="position:relative; top:8px; width:75% ; font-size: 13px;">Creation of <span style="color: hsl(0, 0%, 100%); "> Jules Wyvern</span></p>
+    </div>
+  <div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Bindresh Kr.Sahani</a>.
+  </div>
+  </div>
+</body>
+</html>
